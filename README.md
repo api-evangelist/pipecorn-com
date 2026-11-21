@@ -1,4 +1,4 @@
-# pipecorn-com
+# Pipecorn
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pipecorn-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pipecorn.com/
+Pipecorn provides an unlimited leads platform that enriches contact data with verified emails, mobile numbers, and company signals. It offers a workspace to build lists, enrich them, and export to outreach tools, supporting outbound agencies, GTM, RevOps, sales, and marketing teams. The service includes features like job change tracking, lookalike company generation, and a robust API & MCP for accurate data workflows, aiming to improve pipeline efficiency and outreach success.
+
+**Areas:** Company · B2B · LeadEnrichment · SalesAutomation · DataAPI
+
+## Pipecorn on APIs.io
+
+Everything profiled for Pipecorn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pipecorn-com/](https://apis.io/providers/pipecorn-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Pipecorn Accounts API](https://apis.io/apis/pipecorn-com/pipecorn-com-accounts-api/) — Pipecorn Accounts API
+- [Pipecorn Enrichments API](https://apis.io/apis/pipecorn-com/pipecorn-com-enrichments-api/) — Pipecorn List API
+- [Pipecorn Leads API](https://apis.io/apis/pipecorn-com/pipecorn-com-leads-api/) — Pipecorn Accounts API
+- [Pipecorn Lists API](https://apis.io/apis/pipecorn-com/pipecorn-com-lists-api/) — Pipecorn List API
+- [Pipecorn Miscellaneous API](https://apis.io/apis/pipecorn-com/pipecorn-com-miscellaneous-api/) — Pipecorn Miscellaneous API
+- [Pipecorn Personas API](https://apis.io/apis/pipecorn-com/pipecorn-com-personas-api/) — Pipecorn Personas API
+- [Pipecorn Searches API](https://apis.io/apis/pipecorn-com/pipecorn-com-searches-api/) — Pipecorn List API
+- [Pipecorn Signals API](https://apis.io/apis/pipecorn-com/pipecorn-com-signals-api/) — Pipecorn Accounts API
+- [Pipecorn Whats App API](https://apis.io/apis/pipecorn-com/pipecorn-com-whats-app-api/) — Private endpoint to check whether a phone number is reachable on WhatsApp.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Pipecorn Agentic Access](https://apis.io/agentic-access/pipecorn-com/pipecorn-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AccountEnrichment](https://apis.io/schemas/pipecorn-com/pipecorn-com-account-enrichment/)
+- [EnrichmentRequest](https://apis.io/schemas/pipecorn-com/pipecorn-com-enrichment-request/)
+- [Lead](https://apis.io/schemas/pipecorn-com/pipecorn-com-lead/)
+- [LeadEnrichment](https://apis.io/schemas/pipecorn-com/pipecorn-com-lead-enrichment/)
+- [Persona](https://apis.io/schemas/pipecorn-com/pipecorn-com-persona/)
+- [PersonaUpdate](https://apis.io/schemas/pipecorn-com/pipecorn-com-persona-update/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pipecorn Com Context](https://apis.io/jsonld/pipecorn-com/pipecorn-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Pipecorn API Rules](https://apis.io/rules/pipecorn-com/pipecorn-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pipecorn Authentication](https://apis.io/security/pipecorn-com/pipecorn-com-authentication/)
+- [Pipecorn Domain Security](https://apis.io/security/pipecorn-com/pipecorn-com-domain-security/)
+- [Pipecorn Vulnerability Disclosure](https://apis.io/security/pipecorn-com/pipecorn-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pipecorn Plans Pricing](https://apis.io/plans/pipecorn-com/pipecorn-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Pipecorn Rate Limits](https://apis.io/rate-limits/pipecorn-com/pipecorn-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pipecorn.com/)
+- [Documentation](https://docs.pipecorn.com)
+- [Getting started](https://docs.pipecorn.com/mcp/setup/claude)
+- [API reference](https://docs.pipecorn.com/api-reference/overview)
+- [Pricing](https://pipecorn.com/pricing)
+- [Sign up](https://app.pipecorn.com/register)
+- [Changelog](https://docs.pipecorn.com/changelog)
+- [Blog](https://pipecorn.com/blog)
+- [Security](https://compliance.pipecorn.com)
+- [Terms of service](https://pipecorn.com/terms-of-service)
+- [Privacy policy](https://pipecorn.com/privacy-policy)
+- [GitHub](https://github.com/Pipecorn)
+
+## API Evangelist rating
+
+**Kin Score 71.2** — exemplar · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 60.0 |
+| Developer ergonomics | 73.1 |
+| Access clarity | 73.2 |
+
+**Agent readiness 58.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pipecorn-com/](https://apis.io/providers/pipecorn-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pipecorn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pipecorn-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
